@@ -10,7 +10,7 @@ public class QuestionsTest {
         int actualResult = q.question1();
         Assert.assertEquals(expectedResult, actualResult);
     }
-
+    
     @Test
     public void testQuestion2() {
         int expectedResult = (int) Math.pow(2, 4) - 2;
